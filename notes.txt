@@ -1,0 +1,12 @@
+Why is the fs core module important for Node development?
+- because it allows for file system operations that are essential to running a server
+
+What is the difference between sync and non-sync methods in the fs module?
+- sync = synchronous, executes code line by line, and should generally not be used because it will block the event loop.
+- non-sync = asynchronous, allows your code to keep executing asynchronously allowing for faster applications. Can sometimes be problematic if you create race conditions.
+
+Why are modules used?
+- to allow the community to develop and maintain code packages that will be beneficial, reusable and clean. If everyone needs a certain functionality, why reinvent the wheel for each new application?
+
+Why are libraries such as fs used in Node programming?
+- to speed up development by providing additional functionality in a modular capacity. Each library can perform certain operations for you, saving you time writing code.
